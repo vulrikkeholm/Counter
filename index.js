@@ -4,6 +4,8 @@ let count = 0
 let topText = document.getElementById("top-text")
 const container = document.getElementById("container")
 
+console.log('det virker')
+
 function increment() {
     count += 1
     countEl.textContent = count
