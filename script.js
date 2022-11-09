@@ -3,13 +3,9 @@ const countEl = document.getElementById("count-el")
 let count = 0
 let topText = document.getElementById("top-text")
 const container = document.getElementById("container")
-const incrementBtn = document.getElementById('increment-btn')
-const saveBtn = document.getElementById('save-btn')
 
 console.log('det virker')
 
-incrementBtn.addEventListener('click', increment())
-saveBtn.addEventListener('click', save())
 
 function increment() {
     count += 1
