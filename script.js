@@ -1,11 +1,8 @@
-const saveEl = document.getElementById("save-el")
-const countEl = document.getElementById("count-el")
+let saveEl = document.getElementById("save-el")
+let countEl = document.getElementById("count-el")
 let count = 0
 let topText = document.getElementById("top-text")
 const container = document.getElementById("container")
-
-console.log('det virker')
-
 
 function increment() {
     count += 1
