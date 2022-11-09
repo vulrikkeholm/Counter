@@ -6,10 +6,10 @@ const container = document.getElementById("container")
 const incrementBtn = document.getElementById('increment-btn')
 const saveBtn = document.getElementById('save-btn')
 
+console.log('det virker')
+
 incrementBtn.addEventListener('click', increment())
 saveBtn.addEventListener('click', save())
-
-console.log('det virker')
 
 function increment() {
     count += 1
