@@ -3,6 +3,11 @@ let countEl = document.getElementById("count-el")
 let count = 0
 let topText = document.getElementById("top-text")
 const container = document.getElementById("container")
+const incrementBtn = document.getElementById('increment-btn')
+const saveBtn = document.getElementById('save-btn')
+
+incrementBtn.addEventListener('click', increment())
+saveBtn.addEventListener('click', save())
 
 console.log('det virker')
 
