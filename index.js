@@ -9,8 +9,6 @@ const saveBtn = document.getElementById('save-btn')
 incrementBtn.addEventListener('click', increment)
 saveBtn.addEventListener('click', save)
 
-console.log('det virker')
-
 function increment() {
     count += 1
     countEl.textContent = count
